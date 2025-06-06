@@ -10,7 +10,7 @@ library(readODS)
 # 0. DF
 # ------------------------------
 setwd("/home/admin/Desktop/ELIAS/pafip_PRSCS/")
-pafip <- read.csv("PHENO_BUENO.csv", sep="\t")
+pafip <- read.csv("pheno.csv", sep="\t")
 
 pafip$p2diag6m <- as.factor(pafip$p2diag6m)
 pafip$p3tto3m <- as.factor(pafip$p3tto3m)
